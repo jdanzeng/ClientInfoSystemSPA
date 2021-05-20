@@ -1,0 +1,5 @@
+<ul>
+    <li *ngFor="let client of clients">
+      <a [routerLink] ="['/clients/', client.id]"> {{client.name}} </a>
+    </li>
+  </ul>
